@@ -1,0 +1,8 @@
+site_name: "MavenProject"
+site_description: "MavenProject"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

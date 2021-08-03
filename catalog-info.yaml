@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "MavenProject"
+  description: "MavenProject"
+  annotations:
+    github.com/project-slug: BalaNarvar/depchecker
+    backstage.io/techdocs-ref: url:github.com/BalaNarvar/depchecker
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "narvar-inc"
